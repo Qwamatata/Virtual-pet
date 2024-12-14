@@ -1,5 +1,5 @@
 import pygame as pg
-
+import pictures
 # Инициализация pg
 pg.init()
 
@@ -33,7 +33,9 @@ class Game:
         ...
 
     def draw(self):
+        self.screen.blit(pictures.back,[0,0])
         pg.display.flip()
+
 
 
 if __name__ == "__main__":
