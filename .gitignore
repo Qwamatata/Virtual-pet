@@ -1,0 +1,5 @@
+files.py
+.venv
+new.txt
+numbers.txt
+__pycache__/
